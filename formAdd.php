@@ -6,7 +6,7 @@
 	<title>form Add</title>
 </head>
 <body>
-<form action="" method="">
+<form action="simpan.php" method="POST">
 <table border="0" width="300">
 	<tr>
 		<th colspan="2">FORM TAMBAH</th>

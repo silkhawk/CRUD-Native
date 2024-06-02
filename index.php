@@ -27,7 +27,7 @@
 		<th>NO</th>
 		<th>NAMA</th>
 		<th>ALAMAT</th>
-		<th><a href="formAdd.php">TAMBAH DATA</a></th>
+		<th><a href="formAdd.php">ADD</a></th>
 	</tr>
 	<?php 	
 	while ($data = mysqli_fetch_array($hasil)) {	
