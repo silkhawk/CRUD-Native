@@ -36,6 +36,7 @@
 		<td><?php echo $data['nis']?></td>
 		<td><?php echo $data['nama']?></td>
 		<td><?php echo $data['alamat']?></td>
+		<td> <a href="">Edit</a> | <a href="">Delete</a> </td>
 	</tr>
 	<?php }?>
 	
