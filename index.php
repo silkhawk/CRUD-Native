@@ -22,7 +22,7 @@
 		$hasil = $conn->query($sql);
 	?>
 </head><body>
-<table border="0" width="400" id="a">
+<table border="0" width="400" >
 	<tr>
 		<th>NO</th>
 		<th>NAMA</th>
