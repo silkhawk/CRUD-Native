@@ -28,6 +28,7 @@
 		<th>NAMA</th>
 		<th>ALAMAT</th>
 		<th>JENIS KELAMIN</th>
+		<th><a href="formAdd.php">ADD</a></th>
 	</tr>
 	<?php 	
 	while ($data = mysqli_fetch_array($hasil)) {	
@@ -37,6 +38,9 @@
 		<td><?php echo $data['nama']?></td>
 		<td><?php echo $data['alamat']?></td>
 		<td><?php echo $data['jk']?></td>
+		<td>
+			<a href="edit.php?id=<?= $data['nis'] ?>">Edit</a> | <a href="delete.php?id=<?= $data['nis'] ?>">Delete</a>
+		</td>
 	</tr>
 	<?php }?>
 </table>

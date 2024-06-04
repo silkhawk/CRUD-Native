@@ -24,6 +24,10 @@
 		<td><input type="" name="tAlamat"></td>
 	</tr>
 	<tr>
+		<td>GENDER</td>
+		<td><input type="" name="tJk"></td>
+	</tr>
+	<tr>
 		<td>&nbsp;</td>
 		<td><input type="submit" name="" value="SAVE"></td>
 	</tr>
