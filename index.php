@@ -22,7 +22,7 @@
 		$hasil = $conn->query($sql);
 	?>
 </head><body>
-<table border="0" width="400" >
+<table border="0" width="600" >
 	<tr>
 		<th>NO</th>
 		<th>NAMA</th>
@@ -39,7 +39,7 @@
 		<td><?php echo $data['alamat']?></td>
 		<td><?php echo $data['jk']?></td>
 		<td>
-			<a href="edit.php?id=<?= $data['nis'] ?>">Edit</a> | <a href="delete.php?id=<?= $data['nis'] ?>">Delete</a>
+			<a href="formEdit.php?id=<?= $data['nis'] ?>">Edit</a> | <a href="delete.php?id=<?= $data['nis'] ?>">Delete</a>
 		</td>
 	</tr>
 	<?php }?>

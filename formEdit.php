@@ -32,7 +32,7 @@ if (isset($_GET['id'])) {
 	</tr>
     <tr>
 		<td>GENDER</td>
-		<td><input type="" name="tAlamat" value="<?= $row['jk'] ?>"></td>
+		<td><input type="" name="tJk" value="<?= $row['jk'] ?>"></td>
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
