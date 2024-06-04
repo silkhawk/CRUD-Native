@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>form Edit</title>
+	<title>FORM EDIT</title>
     <?php
 require_once 'koneksi.php';
 if (isset($_GET['id'])) {
@@ -36,7 +36,7 @@ if (isset($_GET['id'])) {
 	</tr>
 	<tr>
 		<td>&nbsp;</td>
-		<td><input type="submit" name="" value="UPDATE"></td>
+		<td><input type="submit" name="" value="UPDATE DATA"></td>
 	</tr>
 </table>
 </form>
