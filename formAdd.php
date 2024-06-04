@@ -4,10 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>form Add</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <form action="simpan.php" method="POST">
-<table border="0" width="300">
+<table border="0" width="300" id="a">
 	<tr>
 		<th colspan="2">FORM TAMBAH</th>
 	</tr>

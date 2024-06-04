@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>form Edit</title>
+    <link rel="stylesheet" href="style.css">
     <?php
 require_once 'koneksi.php';
 if (isset($_GET['id'])) {
@@ -14,7 +15,7 @@ if (isset($_GET['id'])) {
 </head>
 <body>
 <form action="edit.php" method="POST">
-<table border="0" width="300">
+<table border="0" width="300" id="a">
 	<tr>
 		<th colspan="2">FORM TAMBAH</th>
 	</tr>

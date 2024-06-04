@@ -4,25 +4,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>tugas</title>
-	<style type="text/css">
-		#a{
-			border: 1px solid red;
-			border-radius: 10px;
-		}
-		a{
-			text-decoration: none;
-			color: #0A6847;
-
-		}
-
-	</style>
+	<link rel="stylesheet" href="style.css">
+	
 	<?php
 		include_once('koneksi.php');
 		$sql = "SELECT * FROM siswa";
 		$hasil = $conn->query($sql);
 	?>
 </head><body>
-<table border="0" width="600" >
+<table border="0" width="600" id="a">
 	<tr>
 		<th>NO</th>
 		<th>NAMA</th>
