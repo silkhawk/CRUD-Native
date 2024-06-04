@@ -39,8 +39,6 @@
 		<td><?php echo $data['jk']?></td>
 	</tr>
 	<?php }?>
-	
-	
 </table>
 </body>
 </html>
